@@ -8,3 +8,19 @@ function btn () {
     }
   }
 }
+
+
+var idade = 19;
+var pessoa = idade > 18 ? 'maior de idade' : 'menor de idade;'
+console.log(pessoa);
+
+var lolRanking = 50;
+var lolNivel = "Prata";
+
+
+var verificaçãoDeRanking = lolRanking >= 50 ? true : false;
+var verificaçãoDeNivel = lolNivel === "Prata" ? true : false;
+var resultado = verificaçãoDeRanking && verificaçãoDeNivel;
+var resultado = verificaçãoDeRanking === verificaçãoDeNivel ? "Aprovado" : "Reprovado"; 
+
+console.log(resultado)
