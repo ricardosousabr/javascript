@@ -17,5 +17,12 @@ if (lolRanking >= 50 && lolNivel === "Prata") {
 }
 else {
   console.log("Reprovado")
-}
+};
 
+var multiplesOfThree = 3;
+var multiplesOfFive = 5;
+
+  if (multiplesOfThree % 3 === 0 && multiplesOfFive % 5 ===0){
+    console.log(multiplesOfThree)
+    console.log(multiplesOfFive)
+  };
