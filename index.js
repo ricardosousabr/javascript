@@ -10,13 +10,16 @@ function btn () {
 }
 
 var lolRanking = 50;
-var lolNivel = "Prata";
+var lolNivel = ["Prata", "Ouro","Platina", "Diamante"];
 
-if (lolRanking >= 50 && lolNivel === "Prata") {
-  console.log("Aprovado")
-}
-else {
-  console.log("Reprovado")
+for (l = 0; l < lolNivel.length; l++){
+  if (lolRanking >= 50 && lolNivel[l] === "Prata") {
+    console.log("Aprovado")
+    break
+  }
+  else {
+    console.log("Reprovado")
+  };
 };
 
 var multiplesOfThree = 3;
