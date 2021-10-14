@@ -1,10 +1,12 @@
-function numeroPrimo(numero) {
-  if (numero > 1 && numero / numero && numero / 1 ){
-    return "Número Primo"
+function verificadorPrimo(valor) {
+  for (i = 2; i < valor; i++){
+    if (valor / i === valor/(valor/2)){
+      console.log("true")
+    }
+    else {
+      console.log("false")
+    }
   }
-  else {
-    return "Não é número Primo"
-  };
 };
 
-console.log(numeroPrimo(4))
+return verificadorPrimo(14);
