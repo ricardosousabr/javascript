@@ -1,12 +1,12 @@
 function verificadorPrimo(valor) {
   for (i = 2; i < valor; i++){
-    if (valor / i === valor/(valor/2)){
-      console.log("true")
+    if (valor % i === 0 ){
+      console.log("Divisivel")
     }
     else {
-      console.log("false")
+      console.log(valor)
     }
   }
 };
 
-return verificadorPrimo(14);
+return verificadorPrimo(15);
