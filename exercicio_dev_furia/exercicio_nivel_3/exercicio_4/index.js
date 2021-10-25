@@ -1,4 +1,4 @@
-function multiplicarNumeroMinimoMultiplo(num1, num2) {
+function numeroMinimoMultiplo(num1, num2) {
   var resto, a, b
 
   a = num1
@@ -14,7 +14,7 @@ function multiplicarNumeroMinimoMultiplo(num1, num2) {
   console.log((num1 * num2) / a)
 }
 
-return multiplicarNumeroMinimoMultiplo(10, 4)
+return numeroMinimoMultiplo(10, 4)
 // 10  4 | 2
 //  5  2 | 2
 //  5  1 | 5
