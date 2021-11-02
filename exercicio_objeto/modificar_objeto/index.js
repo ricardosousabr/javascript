@@ -30,3 +30,14 @@ const cachorro = {
 }
 
 console.log(cachorro.latir("homem"))
+
+const preferencias = {
+  livro: "O Olho do Mundo",
+  jogo: "Horizon Zero Danw",
+  estudar: "Programação",
+  filme: "Homen-aranha"
+}
+
+console.log(preferencias.livro.toLowerCase())
+console.log(preferencias.jogo.toUpperCase())
+console.log(preferencias.estudar.replace("Programação", "Desenvolvimento"))
