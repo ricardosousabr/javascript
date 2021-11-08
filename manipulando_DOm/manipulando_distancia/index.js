@@ -1,7 +1,7 @@
-function tipoDeUsuario(){
-  if (document.body.offsetWidth <= 576 ) {
+function tipoDeUsuario(pixels){
+  if (document.body.offsetWidth <= pixels) {
     return "Uruário de Celular"
   }
 }
 
-console.log(tipoDeUsuario())
+console.log(tipoDeUsuario(576))
