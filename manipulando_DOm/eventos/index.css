@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+  border-radius: 15px;
+  background: greenyellow;
+  color: black;
+  height: 20px;
+  width: 120px;
+}
+
+.btn_hover {
+  transform: translate(-5px);
+  transition: 1s;
+}
